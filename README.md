@@ -1,24 +1,26 @@
 # Employee Management System
 
-A modern Employee Management System built using Java Swing and MySQL with a clean dark dashboard UI.
+A modern Employee Management System built using Java Swing and MySQL with a clean and professional dark-themed dashboard UI.
 
 ---
 
-## Features
+# Features
 
-- Employee Login Authentication
+- Admin Login Authentication
 - Add Employee
 - View Employees
 - Update Employee
 - Remove Employee
-- Search Employees
+- Search Employee by ID
 - Print Employee Records
-- Modern Dark Dashboard UI
+- Modern Dashboard UI
 - MySQL Database Integration
+- Responsive Table Design
+- Interactive Buttons and Hover Effects
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - Java
 - Java Swing
@@ -29,56 +31,60 @@ A modern Employee Management System built using Java Swing and MySQL with a clea
 
 ---
 
-## UI Highlights
+# UI Design
 
-- Modern SaaS-inspired dark theme
-- Clean dashboard layout
-- Responsive table styling
+- Modern dark theme
+- Dashboard-based layout
 - Flat modern buttons
-- Premium admin-panel design
-- Segoe UI typography
+- Styled data tables
+- Premium admin panel appearance
+- Clean Segoe UI typography
+- Interactive hover effects
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```bash
 src/
- ├── employee/management/system/
- │    ├── Splash.java
- │    ├── Login.java
- │    ├── Home.java
- │    ├── AddEmployee.java
- │    ├── ViewEmployee.java
- │    ├── UpdateEmployee.java
- │    ├── RemoveEmployee.java
- │    └── Conn.java
+ ├── employee/
+ │    └── management/
+ │         └── system/
+ │              ├── Splash.java
+ │              ├── Login.java
+ │              ├── Home.java
+ │              ├── AddEmployee.java
+ │              ├── ViewEmployee.java
+ │              ├── UpdateEmployee.java
+ │              ├── RemoveEmployee.java
+ │              └── Conn.java
  │
  └── icons/
       ├── front.jpg
       ├── second.jpg
       ├── add_employee.jpg
       ├── delete.png
-      └── home.jpg
+      ├── home.jpg
+      └── bg.jpg
 ```
 
 ---
 
-## Database Setup
+# Database Setup
 
-Create database:
+## Create Database
 
 ```sql
 create database employeemanagementsystem;
 ```
 
-Use database:
+## Use Database
 
 ```sql
 use employeemanagementsystem;
 ```
 
-Create login table:
+## Create Login Table
 
 ```sql
 create table login(
@@ -87,13 +93,13 @@ create table login(
 );
 ```
 
-Insert admin login:
+## Insert Default Admin Login
 
 ```sql
 insert into login values('admin', '12345');
 ```
 
-Create employee table:
+## Create Employee Table
 
 ```sql
 create table employee(
@@ -113,7 +119,7 @@ create table employee(
 
 ---
 
-## Default Login Credentials
+# Default Login Credentials
 
 ```txt
 Username: admin
@@ -122,41 +128,57 @@ Password: 12345
 
 ---
 
-## Screenshots
+# Screenshots
 
-### Splash Screen
+## Splash Screen
+
 ![Splash Screen](screenshots/splash.png)
 
-### Login Screen
+---
+
+## Login Screen
+
 ![Login Screen](screenshots/login.png)
 
-### Dashboard
+---
+
+## Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
-### Add Employee
+---
+
+## Add Employee
+
 ![Add Employee](screenshots/add-employee.png)
 
-### View Employee
-![View Employee](screenshots/view-employee.png)
+---
 
-### Remove Employee
+## View Employees
+
+![View Employees](screenshots/view-employee.png)
+
+---
+
+## Remove Employee
+
 ![Remove Employee](screenshots/remove-employee.png)
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-- PreparedStatement for SQL security
-- Dashboard analytics
-- Employee profile pictures
-- Search filters
-- Pagination
-- Export to PDF
-- Role-based authentication
+- PreparedStatement for SQL Injection Prevention
+- Role-based Authentication
+- Employee Profile Images
+- Dashboard Analytics
+- Export Data to PDF/Excel
+- Search Filters
+- Pagination Support
 
 ---
 
-## Author
+# Author
 
 Krishna Sharma
 
